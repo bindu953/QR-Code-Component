@@ -1,0 +1,87 @@
+/* Reset default settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+}
+
+/* Center the QR code card */
+.main-content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+/* White QR card */
+.qr-section {
+    background-color: hsl(0, 0%, 100%);
+
+    width: 320px;
+    max-width: 100%;
+
+    padding: 16px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+/* QR code image */
+.qr-image {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Text container */
+.qr-text {
+    padding: 24px 16px;
+}
+
+/* Heading */
+.qr-text h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    /* padding: 16px; */
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 16px;
+}
+
+/* Description */
+.qr-text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    color: hsl(216, 15%, 48%);
+}
+
+/* Footer */
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 12px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+
+/* Mobile responsiveness */
+@media (max-width: 375px) {
+    .main-content {
+        padding: 16px;
+    }
+}
